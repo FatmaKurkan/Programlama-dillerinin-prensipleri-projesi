@@ -19,8 +19,8 @@ Hata Raporlama: Kullanıcı bir hata yaptığında, hatanın nerede olduğunu (S
 
 CoffeeLang dilinin tüm kuralları hiyerarşik bir yapıya sahiptir. Aşağıdaki Backus-Naur Form (BNF) gösterimi, dilin hangi komutları hangi sırayla kabul ettiğini belirleyen resmi kurallar bütünüdür:
 
-BNF
-<Program>      ::= <KomutListesi>
+BNF   
+ <Program>      ::= <KomutListesi>
 <KomutListesi> ::= <Komut> | <Komut> <KomutListesi>
 <Komut>        ::= <SecimKomutu> | <EklemeKomutu> | <AksiyonKomutu>
 
@@ -30,6 +30,7 @@ BNF
 
 <Metin>        ::= "\"" [a-zA-Z]+ "\""
 <TamSayi>      ::= [0-9]+
+
 Kuralların Açıklaması:
 <Program>: Kodun en üst seviyesidir ve bir komut listesinden oluşur.
 
