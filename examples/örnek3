@@ -1,0 +1,8 @@
+ // --- ANLAMSAL (SEMANTIC) HATA ÖRNEĞİ ---
+// Bu kodun yazımı (grameri) tamamen doğrudur ancak mantıksal bir hata vardır.
+// Amacımız: Kahve seçilmeden "Hazırla" denilemeyeceğini kanıtlamaktır.
+
+String kaynakKod = "sutEkle;\n" +     
+                  "sekerEkle 1;\n" + 
+                  "hazirla;";        // <--- HATA: Hangi kahve hazırlanacak? 
+                                     // Evaluator burada 'seciliKahve' boş olduğu için hata verecektir.
