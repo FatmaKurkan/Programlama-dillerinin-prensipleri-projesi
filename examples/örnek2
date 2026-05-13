@@ -1,0 +1,8 @@
+ // --- SÖZDİZİMİ (SYNTAX) HATASI ÖRNEĞİ ---
+// Bu örnekte, dilin gramer kurallarından biri ihlal edilmiştir.
+// Amacımız: Parser'ın eksik noktalı virgülü yakalayıp kullanıcıyı uyarmasını göstermek.
+
+String kaynakKod = "kahveSec \"Mocha\";\n" +
+                  "sutEkle;\n" +
+                  "sekerEkle 1\n" + // <--- HATA: Burada ';' unutulmuştur!
+                  "hazirla;";      // Parser bir sonraki komuta geçmeden hatayı fırlatır.
