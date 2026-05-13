@@ -1,0 +1,8 @@
+// --- COFFEELANG BAŞARILI ÇALIŞMA ÖRNEĞİ ---
+// Bu kodda tüm komutlar doğru sırada ve doğru yazımla kullanılmıştır.
+// Lexer ve Parser bu kodu sorunsuz bir şekilde işleyip kahveyi hazırlayacaktır.
+
+String kaynakKod = "kahveSec \"Latte\";\n" +  
+                  "sutEkle;\n" +              
+                  "sekerEkle 2;\n" +
+                  "hazirla;";               // İşlem tamamlanır ve çıktı verilir
